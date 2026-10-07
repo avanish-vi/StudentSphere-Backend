@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>StudentSphere - Register</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>StudentSphere</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+    </nav>
+</header>
+
+<div class="container">
+
+    <h2>Create Your Account</h2>
+
+    <form id="registerForm">
+
+        <label>Name</label>
+        <input type="text" id="name" required>
+
+        <label>Email</label>
+        <input type="email" id="email" required>
+
+        <label>Password</label>
+        <input type="password" id="password" required>
+
+        <label>Course</label>
+        <input type="text" id="course" required>
+
+        <label>Year</label>
+        <select id="year" required>
+            <option value="">Select Year</option>
+            <option value="1">First Year</option>
+            <option value="2">Second Year</option>
+            <option value="3">Third Year</option>
+            <option value="4">Fourth Year</option>
+        </select>
+
+        <button type="submit">
+            Register
+        </button>
+
+    </form>
+
+    <p id="message"></p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
